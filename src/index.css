@@ -76,6 +76,7 @@ code {
 
 .header__content p {
   font-size: 32px;
+  margin-bottom: 5px;
 }
 
 .header__content button {

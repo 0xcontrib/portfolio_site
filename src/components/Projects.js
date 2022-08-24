@@ -1,6 +1,6 @@
 import uniswap from '../assets/uniswap.png';
 import compound from '../assets/compound.png';
-import aave from '../assets/aave.png';
+import whitelist from '../assets/whitelist.png';
 
 const Projects = () => {
     return (
@@ -28,12 +28,12 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>NFT Marketplace</h3>
-                    <img src={aave} alt="Aave Landing Page" />
-                    <p>This project is an NFT marketplace. The marketplace allows users to create an NFT and sell it for a price. </p>
+                    <h3>Whitelist Application</h3>
+                    <img src={whitelist} alt="whitelist-dapp" />
+                    <p>A whitelist dapp where addresses can whitelist themselves for NFT mints or token presale.</p>
 
-                    <a href="https://aave.com/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/aave/aave-v3-core" target="_blank" className="button">Code</a>
+                    <a href="https://whitelist-dapp-example.vercel.app/" target="_blank" className="button">Site</a>
+                    <a href="https://github.com/0xcontrib/whitelist-dapp-example" target="_blank" className="button">Code</a>
                 </div>
             </div>
         </section>
